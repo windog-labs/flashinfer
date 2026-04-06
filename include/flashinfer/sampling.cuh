@@ -22,6 +22,7 @@
 #include <curand_philox4x32_x.h>
 
 #include <cub/cub.cuh>
+#include <cub/block/block_adjacent_difference.cuh>
 #include <cuda/functional>
 #include <cuda/std/functional>
 #include <cuda/std/limits>
